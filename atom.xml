@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>零蛋大</title>
+  
+  <subtitle>我养你啊</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://shaodongtang.github.io/"/>
+  <updated>2019-04-25T08:54:11.593Z</updated>
+  <id>https://shaodongtang.github.io/</id>
+  
+  <author>
+    <name>shaodongtang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://shaodongtang.github.io/2019/04/25/hello-world/"/>
+    <id>https://shaodongtang.github.io/2019/04/25/hello-world/</id>
+    <published>2019-04-25T02:15:05.321Z</published>
+    <updated>2019-04-25T08:54:11.593Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="大家好，我系渣渣辉"><a href="#大家好，我系渣渣辉" class="headerlink" title="大家好，我系渣渣辉"></a>大家好，我系渣渣辉</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="TiKZ-画三维图"><a href="#TiKZ-画三维图" class="headerlink" title="TiKZ 画三维图"></a>TiKZ 画三维图</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[border=0pt]&#123;standalone&#125;</span><br><span class="line">\usepackage&#123;tikz&#125;</span><br><span class="line">\usetikzlibrary&#123;arrows.meta&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\begin&#123;tikzpicture&#125;[scale=1.2]</span><br><span class="line">\draw[dashed,fill=blue!15] (1,0,.5) -- (.5,0,1) -- (0,.5,1) -- (0,1,.5) -- (.5,1,0) -- (1,.5,0) -- (1,0,.5);%</span><br><span class="line">\begin&#123;scope&#125;</span><br><span class="line">\draw (0,0,0) node[right=.5mm,below=-.5mm,scale=0.75] &#123;$\tiny o$&#125;;</span><br><span class="line">\draw[dashed] (0,0,0) -- (0,0,1);</span><br><span class="line">\draw[-stealth] (0,0,1) -- (0,0,2.2) node[above] &#123;<span class="variable">$x</span>$&#125;; % z-&gt;x</span><br><span class="line">\draw[dashed] (0,0,0) -- (1,0,0);</span><br><span class="line">\draw[-stealth] (1,0,0) -- (1.8,0,0) node[below] &#123;<span class="variable">$y</span>$&#125;; % x-&gt;y</span><br><span class="line">\draw[dashed] (0,0,0) -- (0,1,0);</span><br><span class="line">\draw[-stealth] (0,1,0) -- (0,1.8,0) node[right] &#123;<span class="variable">$z</span>$&#125;; % y-&gt;z</span><br><span class="line">\end&#123;scope&#125;</span><br><span class="line">\draw (1,0,1) -- (1,1,1) -- (0,1,1) -- (0,0,1) -- (1,0,1) -- (1,0,0)-- (1,1,0) -- (0,1,0) -- (0,1,1) -- (1,1,1) -- (1,1,0);%正方体</span><br><span class="line">%\draw (1.5,0,0) -- (0,1.5,0) -- (0,0,1.5) -- (1.5,0,0);%三角形</span><br><span class="line">\draw (0,0,1.5) -- (.5,0,1);</span><br><span class="line">\draw (0,0,1.5) -- (0,.5,1);</span><br><span class="line">\draw (1.5,0,0) -- (1,0,.5);</span><br><span class="line">\draw (1.5,0,0) -- (1,.5,0);</span><br><span class="line">\draw (0,1.5,0) -- (0,1,.5);</span><br><span class="line">\draw (0,1.5,0) -- (.5,1,0);</span><br><span class="line">\draw[-stealth,red] (1,1/8,3/8) -- (1,3/8,1/8);</span><br><span class="line">\end&#123;tikzpicture&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
