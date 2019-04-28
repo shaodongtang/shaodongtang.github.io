@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shaodongtang.github.io/"/>
-  <updated>2019-04-26T04:03:50.872Z</updated>
+  <updated>2019-04-28T13:29:14.620Z</updated>
   <id>https://shaodongtang.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://shaodongtang.github.io/2019/04/26/Movie/"/>
     <id>https://shaodongtang.github.io/2019/04/26/Movie/</id>
     <published>2019-04-26T03:38:31.949Z</published>
-    <updated>2019-04-26T04:03:50.872Z</updated>
+    <updated>2019-04-28T13:29:14.620Z</updated>
     
-    <content type="html"><![CDATA[<p>林正英系列</p><blockquote><ul><li>《七小福》： <a href="https://www.qpvod.com/play/25458-1-1.html" target="_blank" rel="noopener">https://www.qpvod.com/play/25458-1-1.html</a></li><li>hexo s -p 5555 </li><li>hexo d </li><li>hexo s -p 5555</li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>林正英系列</p><blockquote><ul><li><a href="https://www.qpvod.com/play/25458-1-1.html" target="_blank" rel="noopener">《七小福》</a>： <a href="https://www.qpvod.com/play/25458-1-1.html" target="_blank" rel="noopener">https://www.qpvod.com/play/25458-1-1.html</a></li></ul></blockquote><blockquote><ul><li>《驱魔警察》</li></ul></blockquote>]]></content>
     
     <summary type="html">
     
@@ -32,11 +32,13 @@
         &lt;p&gt;林正英系列&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;《七小福》： &lt;a href=&quot;https://www.qpvod.com/play/25458-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.qpv
+&lt;li&gt;&lt;a href=&quot;https://www.qpvod.com/play/25458-1-1.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《七小福》&lt;/a&gt;： &lt;a href=&quot;ht
       
     
     </summary>
     
+    
+      <category term="电影" scheme="https://shaodongtang.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
@@ -45,41 +47,45 @@
     <link href="https://shaodongtang.github.io/2019/04/25/hexo-node/"/>
     <id>https://shaodongtang.github.io/2019/04/25/hexo-node/</id>
     <published>2019-04-25T15:35:15.837Z</published>
-    <updated>2019-04-26T01:49:55.763Z</updated>
+    <updated>2019-04-28T13:22:45.720Z</updated>
     
-    <content type="html"><![CDATA[<p><code>Windows+R</code> 输入 <code>cmd</code> 回车，输入 <code>D:</code> 回车，输入 <code>cd Blog</code> 回车，输入 <code>cd shaodongtangBlog</code></p><blockquote><ul><li>hexo g</li><li>hexo s -p 5555 </li><li>hexo d </li><li>hexo s -p 5555</li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<p><code>Windows+R</code> 输入 <code>cmd</code> 回车，输入 <code>D:</code> 回车，输入 <code>cd Blog</code> 回车，输入 <code>cd shaodongtangBlog</code> </p><blockquote><ul><li>上传: <code>hexo g</code>  </li><li>提交: <code>hexo d</code>  </li><li>本地预览：<code>hexo s -p</code> 浏览器输入 <code>http://localhost:4000</code> </li></ul></blockquote><h2 id="文章基本设置"><a href="#文章基本设置" class="headerlink" title="文章基本设置"></a>文章基本设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">date: 2019-04-28 20:26:01</span><br><span class="line">comments: <span class="literal">true</span> <span class="comment">#是否可评论</span></span><br><span class="line">toc: <span class="literal">true</span> <span class="comment">#是否显示文章目录</span></span><br><span class="line">categories: <span class="string">"高等数学"</span> <span class="comment">#分类</span></span><br><span class="line">tags:   <span class="comment">#标签</span></span><br><span class="line">- CMC</span><br><span class="line">- Hexo</span><br></pre></td></tr></table></figure><h2 id="Hexo-创建标签和分类"><a href="#Hexo-创建标签和分类" class="headerlink" title="Hexo 创建标签和分类"></a>Hexo 创建标签和分类</h2><ol><li>Hexo 创建分类</li></ol><p>执行命令 <code>$ hexo new page categories</code> 回车 <code>D:\Blog\shaodongtangBlog\source\categories\index.md</code></p><p><img src="/images/Hexoteachcategories.png" alt></p><p>打开 <code>index.md</code> 添加 <code>type: &quot;categories&quot;</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2017-12-02 21:01:24</span><br><span class="line"><span class="built_in">type</span>: <span class="string">"categories"</span></span><br></pre></td></tr></table></figure><ol start="2"><li>Hexo 创建标签</li></ol><p>执行命令 <code>$ hexo new page tags</code> 回车 <code>D:\Blog\shaodongtangBlog\source\tags\index.md</code></p><p><img src="/images/Hexoteachtag.png" alt></p><p>打开 <code>index.md</code> 添加 <code>type: &quot;tags&quot;</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: tags</span><br><span class="line">date: 2019-04-28 20:26:01</span><br><span class="line"><span class="built_in">type</span>: <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;code&gt;Windows+R&lt;/code&gt; 输入 &lt;code&gt;cmd&lt;/code&gt; 回车，输入 &lt;code&gt;D:&lt;/code&gt; 回车，输入 &lt;code&gt;cd Blog&lt;/code&gt; 回车，输入 &lt;code&gt;cd shaodongtangBlog&lt;/code&gt;&lt;/p&gt;
-&lt;b
+        &lt;p&gt;&lt;code&gt;Windows+R&lt;/code&gt; 输入 &lt;code&gt;cmd&lt;/code&gt; 回车，输入 &lt;code&gt;D:&lt;/code&gt; 回车，输入 &lt;code&gt;cd Blog&lt;/code&gt; 回车，输入 &lt;code&gt;cd shaodongtangBlog&lt;/code&gt; &lt;/p&gt;
+&lt;
       
     
     </summary>
     
+    
+      <category term="Hexo" scheme="https://shaodongtang.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://shaodongtang.github.io/2019/04/25/hello-world/"/>
-    <id>https://shaodongtang.github.io/2019/04/25/hello-world/</id>
+    <title>孔宣</title>
+    <link href="https://shaodongtang.github.io/2019/04/25/KongXuan/"/>
+    <id>https://shaodongtang.github.io/2019/04/25/KongXuan/</id>
     <published>2019-04-25T02:15:05.321Z</published>
-    <updated>2019-04-27T03:36:17.446Z</updated>
+    <updated>2019-04-28T15:12:45.246Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="大家好，我系渣渣辉"><a href="#大家好，我系渣渣辉" class="headerlink" title="大家好，我系渣渣辉"></a>大家好，我系渣渣辉</h2><div id="music163player"><br>    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="280" height="86" src="//music.163.com/outchain/player?type=2&id=38358214&auto=0&height=66"><br>    </iframe><br></div><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2123690&auto=0&height=66"></iframe><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="TiKZ-画三维图"><a href="#TiKZ-画三维图" class="headerlink" title="TiKZ 画三维图"></a>TiKZ 画三维图</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[border=0pt]&#123;standalone&#125;</span><br><span class="line">\usepackage&#123;tikz&#125;</span><br><span class="line">\usetikzlibrary&#123;arrows.meta&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">\begin&#123;tikzpicture&#125;[scale=1.2]</span><br><span class="line">\draw[dashed,fill=blue!15] (1,0,.5) -- (.5,0,1) -- (0,.5,1) -- (0,1,.5) -- (.5,1,0) -- (1,.5,0) -- (1,0,.5);%</span><br><span class="line">\begin&#123;scope&#125;</span><br><span class="line">\draw (0,0,0) node[right=.5mm,below=-.5mm,scale=0.75] &#123;$\tiny o$&#125;;</span><br><span class="line">\draw[dashed] (0,0,0) -- (0,0,1);</span><br><span class="line">\draw[-stealth] (0,0,1) -- (0,0,2.2) node[above] &#123;<span class="variable">$x</span>$&#125;; % z-&gt;x</span><br><span class="line">\draw[dashed] (0,0,0) -- (1,0,0);</span><br><span class="line">\draw[-stealth] (1,0,0) -- (1.8,0,0) node[below] &#123;<span class="variable">$y</span>$&#125;; % x-&gt;y</span><br><span class="line">\draw[dashed] (0,0,0) -- (0,1,0);</span><br><span class="line">\draw[-stealth] (0,1,0) -- (0,1.8,0) node[right] &#123;<span class="variable">$z</span>$&#125;; % y-&gt;z</span><br><span class="line">\end&#123;scope&#125;</span><br><span class="line">\draw (1,0,1) -- (1,1,1) -- (0,1,1) -- (0,0,1) -- (1,0,1) -- (1,0,0)-- (1,1,0) -- (0,1,0) -- (0,1,1) -- (1,1,1) -- (1,1,0);%正方体</span><br><span class="line">%\draw (1.5,0,0) -- (0,1.5,0) -- (0,0,1.5) -- (1.5,0,0);%三角形</span><br><span class="line">\draw (0,0,1.5) -- (.5,0,1);</span><br><span class="line">\draw (0,0,1.5) -- (0,.5,1);</span><br><span class="line">\draw (1.5,0,0) -- (1,0,.5);</span><br><span class="line">\draw (1.5,0,0) -- (1,.5,0);</span><br><span class="line">\draw (0,1.5,0) -- (0,1,.5);</span><br><span class="line">\draw (0,1.5,0) -- (.5,1,0);</span><br><span class="line">\draw[-stealth,red] (1,1/8,3/8) -- (1,3/8,1/8);</span><br><span class="line">\end&#123;tikzpicture&#125;</span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="孔宣的形象"><a href="#孔宣的形象" class="headerlink" title="孔宣的形象"></a>孔宣的形象</h2><p>“孔宣”诗曰：伐罪吊民诛独夫，西周原应玉虚符。自无血战成功易，岂有纷争立业殊。孔雀逆天皆孟浪，金鸡阻路尽支吾。休言伎俩参玄妙，总有西方接引徒。</p><p>孔宣大笑曰：“我不遇知音，不发言语。你说你道行深高，你也不知我的根脚，听我道来：混沌初分吾出世，两仪太极任搜求。如今了却生生理，不向三乘妙里游。”</p><p>牙乘四不相至阵前，看孔宣来历大不相同。怎见得，有赞为证，赞曰：身似黄金映火，一笼盔甲鲜明。大刀红马势峥嵘，五道光华色映。曾见开天辟地，又见出日月星辰。一灵道德最根深，他与西方有分。子牙看孔宣背后有五道光华，──按青、黄、赤、白、黑。</p><h2 id="孔宣的战绩"><a href="#孔宣的战绩" class="headerlink" title="孔宣的战绩"></a>孔宣的战绩</h2><p>1、孔宣VS洪锦</p><p>子牙后有洪锦走马奔来，大呼：“孔宣不得无礼！吾来也！”孔宣见洪锦走马而至，孔宣大骂：“逆贼！你还敢来见我！”洪锦曰：“天下八百诸侯俱已归周，料你一个忠臣，也不能济得甚事。”孔宣大怒，摇枪直取。二马交兵，未及数合，洪锦将旗门遁往下一戳，把刀往下一分，那旗化为一门。洪锦方欲进门，孔宣大笑曰：“米粒之珠，有何光彩？”孔宣兜回马，把左边黄光往下一刷，将洪锦刷去，毫无影响，就如沙灰投入大海之中，止见一匹空马。子牙左右大小将官俱目瞪口呆。</p><p>2、孔宣VS姜子牙</p><p>孔宣复纵马来取子牙。子牙手中剑急架相迎。傍有邓九公走马来助阵。子牙大战十五六合。子牙祭打神鞭打孔宣，那鞭已落在孔宣红光中去了，似石投水。子牙大惊，忙传令鸣金。两边各归营寨。</p><p>子牙自思：“不若乘孔宣得胜，今夜去劫他的营，且胜他一阵，再作区处。”子牙令哪咤：“你今夜去劫孔宣的大辕门；黄天化，你去劫他左营；雷震子，你可去劫他右营；先挫动他军威，然后用计破他，必然成功。”三人领令去讫。 孔宣大惊，搯指一算，早已知其就里，忙唤高继能吩咐：“你在左营门埋伏；周信，你在右营门埋伏。今夜姜子牙要来劫吾营寨。我正要他来，只可惜姜尚不曾亲来！”</p><p>孔宣将青光往下一撒。子牙见神光来得利害，忙把杏黄旗招展，那旗现有千朵金莲，护住身体，青光不能下来。──此正是玉虚之宝，自比别样宝贝不同。孔宣大怒，骤马赶来。</p><p>子牙被武王一篇言语把心中惑动，这一会执不住主意，至前营，传令与先行官：“今夜灭灶班师。”</p><p>2、孔宣VS哪咤、雷震子</p><p>(哪咤也不知孔宣的利害). 见哪咤大战孔宣，雷震子大喝一声，如霹雳交加，孔宣将黄光望上一撒，先拏了雷震子。哪咤见如此利害，方欲抽身，又被孔宣把白光一刷，连哪咤撒去，不知去向。</p><p>孔宣升帐，将五色神光一抖，只见哪咤、雷震子跌下地来。</p><p>3、 孔宣VS五将</p><p>五将见孔宣来至，黄飞虎骂曰：“孔宣！你不知天时，真乃匹夫也！”孔宣笑曰：“我也不对你这等草木之辈讲闲话，你且不要走，放马来！”<br>孔宣见这五员将兵器来得甚是凶猛：“若不下手，反为他所算。”把背后五道光华往下一愰，五员战将一去毫无踪影，只剩得五骑归营。</p><p>4、 孔宣VS杨戬</p><p>杨戬被孔宣说明，便走马至军前，举鉴照孔宣，也是如前一般。杨戬迟疑。孔宣见杨戬不言不语，只管照，心中大怒，纵马摇刀直取。<br>杨戬三尖刀急架相还。刀来刀架，两马盘旋，战有三十回合，未分胜负。<br>杨戬见起先照不见他的本像，及至厮杀，又不见取胜，心下十分焦躁，忙祭起哮天犬在空中。那哮天犬方欲下来奔孔宣，不觉自己身轻飘飘落在神光里面去了。<br>孔宣把神光一撒。杨戬见势头不好，知他身后的神光利害，驾金光走了。 </p><p>5、 孔宣VS韦护</p><p>韦护来助杨戬，忙祭降魔杵打将下来。孔宣把神光一撒。只见韦护的降魔杵早落在红光之中去了。韦护见失了宝杵，将身隐在旗下，面面相觑。</p><p>6、 孔宣VS李靖</p><p>孔宣大呼：“姜尚！今日与你定个雌雄！”孔宣走马来战。子牙后有李靖大怒，骂曰：“你是何等匹夫！焉敢如此猖獗！”摇戟直冲向前，抵住孔宣的刀。二将又战在虎穴龙潭之中。李靖祭起按三十三天玲珑金塔往下打来。孔宣把黄光一绞，金塔落去无踪无影。孔宣叫：“李靖不要走！来擒你也！”正是：<br>红光一展无穷妙，方知玄内有真玄。</p><p>7、 孔宣VS金、木二咤</p><p>话说金、木二咤见父亲被擒，兄弟二人四口宝剑飞来，大骂：“孔宣逆贼！敢伤吾父！”弟兄二人举剑就砍。孔宣手中刀急架相迎。只三合，金咤祭遁龙桩，木咤祭吴钩剑，俱祭在空中，总来孔宣把这些宝贝不为稀罕，只见俱落在红光里面去了。金、木二咤见势不好，欲待要走，被孔宣把神光复一撒，早已拿去。</p><p>8、 孔宣VS邓婵玉</p><p>子牙后队恼了邓婵玉，用手把马拎回，抓一块五光石打来。正是：发手红光出五指，流星一点落将来。<br>孔宣被邓婵玉一石打伤面门，勒转马望本营逃回。</p><p>孔宣见落了空，忙看地下。不防邓婵玉发手打来一石，喝曰：“逆贼看石！”孔宣听得响，及至抬头时，已是打中面门：“哎呀”一声，双手掩面，转身就走。婵玉乘机又是一石，正中后颈，着实带了重伤，逃回行营。</p><p>9、 孔宣VS龙吉公主</p><p>不防龙吉公主祭起鸾飞宝剑，从孔宣背后砍来。孔宣不知，左臂上中了一剑，大叫一声，几乎堕马，负痛败进营来</p><p>10、 孔宣VS陆压</p><p>孔宣笑曰：“料你不过草木愚夫，识得甚么天时人事！”把刀一愰，来取陆压。陆压手中剑急架忙迎。步马相交，未及五六合，陆压取葫芦欲放斩仙飞刀；只见孔宣将五色神光望陆压撒来。陆压知神光利害，化作长虹而走</p><p>11、 孔宣VS土行孙</p><p>土行孙大骂：“逆贼是谁？敢如此无理！”孔宣抬头，见一矮子，提条铁棍，身高不过三四尺长，孔宣笑曰：“你是个甚么东西，也来说话？”土行孙也不答话，滚到孔宣的马足下来，举棍就打。孔宣轮刀来架。土行孙身子伶俐，左右窜跳，三五合，孔宣甚是费力。土行孙见孔宣如此转折，随纵步跳出圈子，诱之曰：“孔宣，你在马上不好交兵，你下马来，与你见个彼此，吾定要拿你，方知吾的手段！”孔宣原不把土行孙放在眼里，便以此为实，暗想：“这匹夫合该死！不要讲刀砍他，只是一脚也踢做两断。”孔宣曰：“吾下马来与你战，看你如何！”这个正是：<br>你要成功扶纣王，谁知反中巧中机。<br>孔宣下马，执剑在手，往下砍来。土行孙手中棍望上来迎。二人恶战在岭下。且说土行孙与孔宣步战，大抵土行孙是步战惯了的，孔宣原是马上将军，下来步战，转折甚是不疾，反被土行孙打了几下。孔宣知是失计，忙把五色神光往下撒来。土行孙见五色光华来得疾速神异，知道利害，忙把身子一扭，就不见了。</p><p>12、 孔宣VS燃灯道人</p><p>孔宣大怒，将刀一摆，就来战燃灯。燃灯口称：“善哉！”把宝剑架刀，才战二三回合，燃灯忙祭起二十四粒定海珠来打孔宣。孔宣忙把神光一摄，只见那宝珠落在神光之中去了。燃灯大惊；又祭紫金钵盂。只见也落在神光中去了。燃灯大呼：“门人何在？”只听半空中一阵大风飞来，内现一只大鹏雕来了。孔宣见大鹏雕飞至，忙把顶上盔挺了一挺，有一道红光直冲牛斗，横在空中。燃灯道人仔细定睛，以慧眼观之，不见明白，只听见空中有天崩地塌之声。有两个时辰，只听得一声响亮，把大鹏雕打下尘埃。孔宣忙催开马，把神光来撒燃灯。燃灯借着一道祥光，自回营来；见子牙陈说利害：“不知他是何物。”只见大鹏雕也随至帐前。</p><p>13、 孔宣VS准提</p><p>“准提”诗曰：准提菩萨产西方，道德根深妙莫量。荷叶有风生色相，莲花无雨立津梁。金弓银戟非防患，宝杵鱼肠另有方。漫道孔宣能变化，婆娑树下号明王。<br>“准提”偈曰：身披道服，手执树枝。八德池边常演道，七宝林下说三乘。顶上常悬舍利子，掌中能写没文经。飘然真道客，秀丽实奇哉。炼就西方居胜境，修成永寿脱尘埃。莲花成体无穷妙，西方首领大仙来。</p><p>孔宣听罢大怒，把刀望道人顶上劈来。准提道人把七宝妙树一刷，把孔宣的大杆刀刷在一边。孔宣忙取金鞭在手，复望准提道人打来。道人又把七宝妙树刷来，把孔宣的鞭又刷在一边去了。孔宣止存两只空手，心上着急，忙将当中红光一撒，把准提道人撒去。燃灯看红光撒去了准提道人，不觉大惊。只见孔宣撒去了准提道人，只是睁着眼，张着嘴，须臾间，顶上盔，身上袍甲，纷纷粉碎，连马压在地下，只听得孔宣五色光里一声雷响，现出一尊圣像来，十八只手，二十四首，执定璎珞伞盖，花罐鱼肠，如持神杵、宝锉、金铃、金弓、银戟、旛旗等件。准提道人作偈曰：“<br>宝焰金光映日明，西方妙法最微精。千千璎珞无穷妙，万万祥光逐次生。加持神杵人罕见，七宝杯中岂易行。今番同赴莲台会，此日方知大道成。”且说准提道人将孔宣用丝绦扣着他颈下，把加持宝杵放在他身上，口称：“道友，请现原形！”霎时间，现出一只目细冠红孔雀来。准提道人坐在孔雀身上，一步步走下岭，进了子牙大营。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h2 id=&quot;孔宣的形象&quot;&gt;&lt;a href=&quot;#孔宣的形象&quot; class=&quot;headerlink&quot; title=&quot;孔宣的形象&quot;&gt;&lt;/a&gt;孔宣的形象&lt;/h2&gt;&lt;p&gt;“孔宣”诗曰：伐罪吊民诛独夫，西周原应玉虚符。自无血战成功易，岂有纷争立业殊。孔雀逆天皆孟浪，金鸡阻路尽支吾。休言伎
       
     
     </summary>
     
+    
+      <category term="封神演义" scheme="https://shaodongtang.github.io/tags/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89/"/>
     
   </entry>
   
