@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shaodongtang.github.io/"/>
-  <updated>2019-04-29T05:39:07.085Z</updated>
+  <updated>2019-10-20T14:40:55.651Z</updated>
   <id>https://shaodongtang.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>麦克劳林展开式</title>
+    <link href="https://shaodongtang.github.io/2019/10/20/MaiKeLaoLin/"/>
+    <id>https://shaodongtang.github.io/2019/10/20/MaiKeLaoLin/</id>
+    <published>2019-10-20T14:39:44.850Z</published>
+    <updated>2019-10-20T14:40:55.651Z</updated>
+    
+    <content type="html"><![CDATA[<p>\begin{align<em>}<br>&amp;e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}=1+x+\frac{x^2}{2}+\cdots+\frac{x^n}{n!}+o(x^n)\<br>&amp;\sin x=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n+1)!}x^{2n+1}=x-\frac{x^3}{6}+o(x^3)\<br>&amp;\cos x=\sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}=1-\frac{1}{2}x^2+o(x^2)\<br>&amp;\ln(1+x)=\sum_{n=0}^{\infty}\frac{(-1)^n}{n+1}x^{n+1}=x-\frac{1}{2}x^2+o(x^2)\<br>&amp;(1+x)^\alpha=1+\sum_{n=1}^{\infty}\frac{\alpha(\alpha-1)\cdots(\alpha-n+1)}{n!}x^n=1+\alpha x+\frac{\alpha(\alpha-1)}{2!}x^2+o(x^2)\<br>&amp;\arctan x=x-\frac{1}{3}x^3+o(x^3)\<br>&amp;\tan x=x+\frac{1}{3}x^3+o(x^3)\<br>&amp;\arcsin x=x+\frac{1}{6}x^3+o(x^3)<br>\end{align</em>}</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;\begin{align&lt;em&gt;}&lt;br&gt;&amp;amp;e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}=1+x+\frac{x^2}{2}+\cdots+\frac{x^n}{n!}+o(x^n)\&lt;br&gt;&amp;amp;\sin x=\sum_{n=0}
+      
+    
+    </summary>
+    
+    
+      <category term="高等数学" scheme="https://shaodongtang.github.io/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>番天印</title>
+    <link href="https://shaodongtang.github.io/2019/05/31/FanTianYin/"/>
+    <id>https://shaodongtang.github.io/2019/05/31/FanTianYin/</id>
+    <published>2019-05-31T12:10:02.147Z</published>
+    <updated>2019-05-31T13:02:49.510Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="番天印的战绩"><a href="#番天印的战绩" class="headerlink" title="番天印的战绩"></a>番天印的战绩</h2><p>第四十六回　广成子破金光阵</p><blockquote><ul><li>砸碎镜子；砸死(砸头)金光圣母；打跑闻太师</li></ul></blockquote><p>广成子暗将番天印，往八卦仙衣底下打将土来，一声响，把镜子打碎了十九面。金光圣母着了忙，拿两面镜子在手，方欲摇动，急发金光来照广成子；早被广成子复祭番天印打将来，金光圣母躲不及，正中脑门，脑浆迸出，一道灵魂早进封神台去了。<br>广成子取番天印祭於空中，太师一见，知印利害，拨听麒麟望西便去。</p><p>第六十三回　申公豹说反殷郊</p><blockquote><ul><li>把哪吒打下风火轮</li></ul></blockquote><p>纵马摇戟来取，旁有哪吒登开风火轮，将火尖枪直取殷郊。轮马相交，未及数合，被殷郊一番天印，把哪吒打下风火轮来。</p><blockquote><ul><li>打跑师傅广成子</li></ul></blockquote><p>师徒二人，战未及四五合，殷郊祭番天印打来；广成子着慌，借纵地金光法，逃回西岐，至相府。</p><blockquote><ul><li>番天印VS杏黄旗失败</li></ul></blockquote><p>殷郊见温良死於马下，忙祭番天印打来。子牙展开杏黄旗；便有万道金光祥云笼罩，又现有千朵白莲，紧护其身；把番天印悬在空中，只是不得下来。子牙随祭打神鞭，正中殷郊後背，翻斗落下马去。</p><blockquote><ul><li>番天印打杨戬，打不下马来</li></ul></blockquote><p>祭番天印打杨戬，杨戬有八九玄功，迎风变化，打不下马来。</p><p>第七十二回　广成子三谒碧游</p><blockquote><ul><li>砸死火灵圣母</li></ul></blockquote><p>话说广成子将番天印祭起，在空中落将下来；火灵圣母那躲得及，正中顶门，可怜打得脑浆迸出，一灵也往封神台去了。</p><blockquote><ul><li>龟灵圣母认怂现原形</li></ul></blockquote><p>广成子祭番天印打来。龟灵圣母见此印打下来，招架不住，忙现原形，乃是个大乌龟。</p><p>第七十七回　老子一爇化三清</p><blockquote><ul><li>多宝道人打了一跌</li></ul></blockquote><p>话说广成子祭起番天印，多宝道人躲不及，一印正中後心，扑的打了一跌，多宝道人逃回阵中去了。</p><h2 id="收服殷郊"><a href="#收服殷郊" class="headerlink" title="收服殷郊"></a>收服殷郊</h2><p>殷郊曰：“老师之言差矣！周武明德圣君，吾父荒淫昏虐，岂敢错认，有辜师训？弟子如改日前言，当受黎锄之厄。”</p><p>燃灯曰：“番天印利害，除非取了玄都离地焰光旗，西方取了青莲宝色旗，如今止有玉虚杏黄旗，殷郊如何伏得他？必先去取了此旗方可。”</p><p>忽见文殊广法天尊站立前面而言曰：“殷郊今日你要受犁锄之厄！”殷郊欠身口称：“师叔！弟子今日回朝歌，老师为何阻吾去路？”文殊广法天尊曰：“你入罗网之中，速速下马，可赦你黎锄之厄。”</p><p>殷郊的头，方冒出山尖，燃灯道人便用手一合，二山头一挤，将殷郊的身子，夹在山内，头在山外。燃灯请武王下山，命广成子推犁上山。只见武吉犁了殷郊，殷郊一道灵魂，往封神台来；</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;番天印的战绩&quot;&gt;&lt;a href=&quot;#番天印的战绩&quot; class=&quot;headerlink&quot; title=&quot;番天印的战绩&quot;&gt;&lt;/a&gt;番天印的战绩&lt;/h2&gt;&lt;p&gt;第四十六回　广成子破金光阵&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;砸碎镜子；砸死(砸头)金光圣
+      
+    
+    </summary>
+    
+    
+      <category term="封神演义" scheme="https://shaodongtang.github.io/tags/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89/"/>
+    
+  </entry>
   
   <entry>
     <title>九曲黄河阵</title>
@@ -70,16 +119,15 @@
     <link href="https://shaodongtang.github.io/2019/04/25/hexo-node/"/>
     <id>https://shaodongtang.github.io/2019/04/25/hexo-node/</id>
     <published>2019-04-25T15:35:15.837Z</published>
-    <updated>2019-04-29T01:16:06.323Z</updated>
+    <updated>2019-10-25T03:30:15.351Z</updated>
     
-    <content type="html"><![CDATA[<p><code>Windows+R</code> 输入 <code>cmd</code> 回车，输入 <code>D:</code> 回车，输入 <code>cd Blog</code> 回车，输入 <code>cd shaodongtangBlog</code> </p><blockquote><ul><li>上传: <code>hexo g</code>  </li><li>提交: <code>hexo d</code>  </li><li>本地预览：<code>hexo s -p</code> 浏览器输入 <code>http://localhost:4000</code> </li></ul></blockquote><h2 id="文章基本设置"><a href="#文章基本设置" class="headerlink" title="文章基本设置"></a>文章基本设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">date: 2019-04-28 20:26:01</span><br><span class="line">comments: <span class="literal">true</span> <span class="comment">#是否可评论</span></span><br><span class="line">toc: <span class="literal">true</span> <span class="comment">#是否显示文章目录</span></span><br><span class="line">categories: <span class="string">"高等数学"</span> <span class="comment">#分类</span></span><br><span class="line">tags:   <span class="comment">#标签</span></span><br><span class="line">- CMC</span><br><span class="line">- Hexo</span><br></pre></td></tr></table></figure><h2 id="Hexo-创建标签和分类"><a href="#Hexo-创建标签和分类" class="headerlink" title="Hexo 创建标签和分类"></a>Hexo 创建标签和分类</h2><ol><li>Hexo 创建分类</li></ol><p>执行命令 <code>$ hexo new page categories</code> 回车 <code>D:\Blog\shaodongtangBlog\source\categories\index.md</code></p><p><img src="/images/Hexoteachcategories.png" alt></p><p>打开 <code>index.md</code> 添加 <code>type: &quot;categories&quot;</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2017-12-02 21:01:24</span><br><span class="line"><span class="built_in">type</span>: <span class="string">"categories"</span></span><br></pre></td></tr></table></figure><ol start="2"><li>Hexo 创建标签</li></ol><p>执行命令 <code>$ hexo new page tags</code> 回车 <code>D:\Blog\shaodongtangBlog\source\tags\index.md</code></p><p><img src="/images/Hexoteachtag.png" alt></p><p>打开 <code>index.md</code> 添加 <code>type: &quot;tags&quot;</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: tags</span><br><span class="line">date: 2019-04-28 20:26:01</span><br><span class="line"><span class="built_in">type</span>: <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p><code>Windows+R</code> 输入 <code>cmd</code> 回车，输入 <code>D:</code> 回车，输入 <code>cd Blog</code> 回车，输入 <code>cd shaodongtangBlog</code><br><code>Windows+R</code> 输入 <code>cmd</code> 回车，输入 <code>cd /d D:\Blog\shaodongtangBlog</code> </p><blockquote><ul><li>上传: <code>hexo g</code>  </li><li>提交: <code>hexo d</code>  </li><li>本地预览：<code>hexo s -p</code> 浏览器输入 <code>http://localhost:4000</code> </li></ul></blockquote><h2 id="文章基本设置"><a href="#文章基本设置" class="headerlink" title="文章基本设置"></a>文章基本设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">date: 2019-04-28 20:26:01</span><br><span class="line">comments: <span class="literal">true</span> <span class="comment">#是否可评论</span></span><br><span class="line">toc: <span class="literal">true</span> <span class="comment">#是否显示文章目录</span></span><br><span class="line">categories: <span class="string">"高等数学"</span> <span class="comment">#分类</span></span><br><span class="line">tags:   <span class="comment">#标签</span></span><br><span class="line">- CMC</span><br><span class="line">- Hexo</span><br></pre></td></tr></table></figure><h2 id="Hexo-创建标签和分类"><a href="#Hexo-创建标签和分类" class="headerlink" title="Hexo 创建标签和分类"></a>Hexo 创建标签和分类</h2><ol><li>Hexo 创建分类</li></ol><p>执行命令 <code>$ hexo new page categories</code> 回车 <code>D:\Blog\shaodongtangBlog\source\categories\index.md</code></p><p><img src="/images/Hexoteachcategories.png" alt></p><p>打开 <code>index.md</code> 添加 <code>type: &quot;categories&quot;</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2017-12-02 21:01:24</span><br><span class="line"><span class="built_in">type</span>: <span class="string">"categories"</span></span><br></pre></td></tr></table></figure><ol start="2"><li>Hexo 创建标签</li></ol><p>执行命令 <code>$ hexo new page tags</code> 回车 <code>D:\Blog\shaodongtangBlog\source\tags\index.md</code></p><p><img src="/images/Hexoteachtag.png" alt></p><p>打开 <code>index.md</code> 添加 <code>type: &quot;tags&quot;</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: tags</span><br><span class="line">date: 2019-04-28 20:26:01</span><br><span class="line"><span class="built_in">type</span>: <span class="string">"tags"</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;code&gt;Windows+R&lt;/code&gt; 输入 &lt;code&gt;cmd&lt;/code&gt; 回车，输入 &lt;code&gt;D:&lt;/code&gt; 回车，输入 &lt;code&gt;cd Blog&lt;/code&gt; 回车，输入 &lt;code&gt;cd shaodongtangBlog&lt;/code&gt; &lt;/p&gt;
-&lt;
+        &lt;p&gt;&lt;code&gt;Windows+R&lt;/code&gt; 输入 &lt;code&gt;cmd&lt;/code&gt; 回车，输入 &lt;code&gt;D:&lt;/code&gt; 回车，输入 &lt;code&gt;cd Blog&lt;/code&gt; 回车，输入 &lt;code&gt;cd shaodongtangBlog&lt;/code&gt;&lt;br&gt;&lt;co
       
     
     </summary>
