@@ -104,7 +104,7 @@
 <meta property="og:site_name" content="零蛋大">
 <meta property="og:description" content="Java在线编译：https://tool.lu/coderunner/?id=7Gt 第一章 Java语言概述第二章 基本数据类型和数组第三章 运算符、表达式和语句1.下列System.out.printf的结果是什么？ 1234int a=100,x,y;        x=++a;        y=a--;        System.out.printf(&quot;%d,%d,%d&quot;,x,y,a">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-12-25T08:26:53.852Z">
+<meta property="og:updated_time" content="2019-12-25T12:56:40.985Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java 课后答案">
 <meta name="twitter:description" content="Java在线编译：https://tool.lu/coderunner/?id=7Gt 第一章 Java语言概述第二章 基本数据类型和数组第三章 运算符、表达式和语句1.下列System.out.printf的结果是什么？ 1234int a=100,x,y;        x=++a;        y=a--;        System.out.printf(&quot;%d,%d,%d&quot;,x,y,a">
@@ -333,7 +333,7 @@
     <link itemprop="mainEntityOfPage" href="https://shaodongtang.github.io/2019/12/25/JavaSEkehoudaan/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="shaodongtang">
+      <meta itemprop="name" content="零蛋大">
       <meta itemprop="description" content="不明真相的吃瓜群众">
       <meta itemprop="image" content="/images/diaochan.jpg">
     </span>
@@ -373,7 +373,7 @@
                 
               
 
-              <time title="创建时间：2019-12-25 16:01:12 / 修改时间：16:26:53" itemprop="dateCreated datePublished" datetime="2019-12-25T16:01:12+08:00">2019-12-25</time>
+              <time title="创建时间：2019-12-25 16:01:12 / 修改时间：20:56:40" itemprop="dateCreated datePublished" datetime="2019-12-25T16:01:12+08:00">2019-12-25</time>
             
 
             
@@ -383,6 +383,24 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/计算机/" itemprop="url" rel="index"><span itemprop="name">计算机</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -433,7 +451,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ceshi</span> </span>&#123;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">      <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="number">5</span>;i++) &#123;</span><br><span class="line">            <span class="keyword">switch</span>(i) &#123;</span><br><span class="line">                <span class="keyword">case</span> <span class="number">1</span>:System.out.printf(<span class="string">"%c"</span>,<span class="string">'a'</span>);</span><br><span class="line">                <span class="keyword">case</span> <span class="number">2</span>:System.out.printf(<span class="string">"%c"</span>,<span class="string">'b'</span>);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="number">3</span>:System.out.printf(<span class="string">"%c"</span>,<span class="string">'c'</span>);</span><br><span class="line">                <span class="keyword">case</span> <span class="number">4</span>:System.out.printf(<span class="string">"%c"</span>,<span class="string">'d'</span>);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><strong>本题的知识点：</strong> 若当前匹配成功的case不存在break，则从当前case开始，依次返回后续case的返回值，直到遇到break，跳出判断。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>. i=<span class="number">1</span> 时，<span class="keyword">case</span> <span class="number">1</span> 匹配成功, 无<span class="keyword">break</span></span><br><span class="line">          输出为：a,b</span><br><span class="line">   i=<span class="number">2</span> 时，<span class="keyword">case</span> <span class="number">2</span> 匹配成功, 遇 <span class="keyword">break</span> </span><br><span class="line">          输出为：b</span><br><span class="line">   i=<span class="number">3</span> 时，<span class="keyword">case</span> <span class="number">3</span> 匹配成功, 无 <span class="keyword">break</span> </span><br><span class="line">          输出为：cd</span><br><span class="line">   i=<span class="number">4</span> 时，<span class="keyword">case</span> <span class="number">2</span> 匹配成功, 遇 <span class="keyword">break</span> </span><br><span class="line">          输出为：d</span><br></pre></td></tr></table></figure></p>
 <p>故for语句的执行结果为：abbcdd</p>
-
+<h2 id="第四章-类与对象"><a href="#第四章-类与对象" class="headerlink" title="第四章 类与对象"></a>第四章 类与对象</h2><h2 id="第五章-继承、接口与泛型"><a href="#第五章-继承、接口与泛型" class="headerlink" title="第五章 继承、接口与泛型"></a>第五章 继承、接口与泛型</h2><h2 id="第六章-字符串和正则表达式"><a href="#第六章-字符串和正则表达式" class="headerlink" title="第六章 字符串和正则表达式"></a>第六章 字符串和正则表达式</h2><h2 id="第七章-常用实用类"><a href="#第七章-常用实用类" class="headerlink" title="第七章 常用实用类"></a>第七章 常用实用类</h2><h2 id="第八章-线程"><a href="#第八章-线程" class="headerlink" title="第八章 线程"></a>第八章 线程</h2><h2 id="第九章-输入、输出流"><a href="#第九章-输入、输出流" class="headerlink" title="第九章  输入、输出流"></a>第九章  输入、输出流</h2>
       
     </div>
 
@@ -535,9 +553,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/diaochan.jpg" alt="shaodongtang">
+              <img class="site-author-image" itemprop="image" src="/images/diaochan.jpg" alt="零蛋大">
             
-              <p class="site-author-name" itemprop="name">shaodongtang</p>
+              <p class="site-author-name" itemprop="name">零蛋大</p>
               <div class="site-description motion-element" itemprop="description">不明真相的吃瓜群众</div>
           </div>
 
@@ -567,7 +585,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -755,7 +775,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一章-Java语言概述"><span class="nav-number">1.</span> <span class="nav-text">第一章 Java语言概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二章-基本数据类型和数组"><span class="nav-number">2.</span> <span class="nav-text">第二章 基本数据类型和数组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三章-运算符、表达式和语句"><span class="nav-number">3.</span> <span class="nav-text">第三章 运算符、表达式和语句</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一章-Java语言概述"><span class="nav-number">1.</span> <span class="nav-text">第一章 Java语言概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二章-基本数据类型和数组"><span class="nav-number">2.</span> <span class="nav-text">第二章 基本数据类型和数组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三章-运算符、表达式和语句"><span class="nav-number">3.</span> <span class="nav-text">第三章 运算符、表达式和语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第四章-类与对象"><span class="nav-number">4.</span> <span class="nav-text">第四章 类与对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第五章-继承、接口与泛型"><span class="nav-number">5.</span> <span class="nav-text">第五章 继承、接口与泛型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第六章-字符串和正则表达式"><span class="nav-number">6.</span> <span class="nav-text">第六章 字符串和正则表达式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第七章-常用实用类"><span class="nav-number">7.</span> <span class="nav-text">第七章 常用实用类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第八章-线程"><span class="nav-number">8.</span> <span class="nav-text">第八章 线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第九章-输入、输出流"><span class="nav-number">9.</span> <span class="nav-text">第九章  输入、输出流</span></a></li></ol></div>
             
 
           </div>
@@ -780,7 +800,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">shaodongtang</span>
+  <span class="author" itemprop="copyrightHolder">零蛋大</span>
 
   
 
