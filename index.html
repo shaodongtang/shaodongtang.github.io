@@ -373,7 +373,7 @@
                 
               
 
-              <time title="创建时间：2020-03-07 13:53:22 / 修改时间：19:47:12" itemprop="dateCreated datePublished" datetime="2020-03-07T13:53:22+08:00">2020-03-07</time>
+              <time title="创建时间：2020-03-07 13:53:22 / 修改时间：19:54:58" itemprop="dateCreated datePublished" datetime="2020-03-07T13:53:22+08:00">2020-03-07</time>
             
 
             
@@ -433,6 +433,20 @@
         
           
             <p><a href="https://bbs.nga.cn/read.php?tid=12677614&amp;_ff=516" title="攻速阈值" target="_blank" rel="noopener">王者荣耀攻速阈值</a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>攻速是衡量英雄普攻快慢的属性。由于游戏底层设计的关系(动画帧数必须是整数)，攻速收益并不是线性和均匀的，而是离散分层的。也就是说，在到达下一层之前，英雄所累积的攻速都是无效的。我们把每一层称为攻速档位，跨层的攻速值称为攻速阈(音yu4)值。<br>不同的英雄其攻速档位有所不同，本文对全英雄都做了测试，每一个攻速模型会用一张攻速阈值表来表示。</p>
+<p>Tips：</p>
+<ul>
+<li>在段落开头或者表格结尾会有必要的说明，会对表格数据理解有帮助。</li>
+<li>浏览器用户可用Ctrl+F打开页面查找功能，输入想查询的英雄名即可快速查阅。</li>
+<li>由于表格较大，在移动端查看往往是比较费劲，所以每个表格后面会附上图片版，供移动端用户使用。</li>
+</ul>
+<h2 id="共型攻速阈值表"><a href="#共型攻速阈值表" class="headerlink" title="共型攻速阈值表"></a>共型攻速阈值表</h2><p>有两个或以上的英雄/英雄道具/英雄攻击形态的阈值表相同的话，其阈值表会被视为共型攻速阈值表，意思是其模型具有共性，列出来方便查阅。<br>说明：</p>
+<ul>
+<li>表中攻速精确到0.2%。</li>
+<li>攻击间隔的单位为秒(S)。</li>
+<li>英雄列表会按照英雄的主定位进行分类，以汉语拼音排序。</li>
+<li>英雄名后的括号内数字表示该英雄的攻速成长值。</li>
+</ul>
 <p><strong>模型(A)</strong> 原模型(1)</p>
 <table>
 <thead>
@@ -490,7 +504,55 @@
 <li><strong>射手</strong>：公孙离-有伞(1%)，马可波罗(3%)，虞姬(3%)</li>
 <li><strong>辅助</strong>：蔡文姬(1%)，大乔(1%)，盾山(1%)，鬼谷子(1%)，刘禅(1%)，明世隐(1%)，太乙真人(1%)，庄周(1%)</li>
 </ul>
-<p><strong>模型(B)</strong> 原模型(2)<br>攻速(%)| 0 | 1.6 | 9.2 | 16.8 | 27.4 | 38 | 53.2 | 69.8 | 91 | 116.8 | 153.2<br>:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:<br>帧数| 17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7<br>攻击间隔(S)| 1.122 | 1.056 | 0.99 | 0.924 | 0.858 | 0.792 | 0.726 | 0.66 | 0.594 | 0.528 | 0.462</p>
+<p><strong>模型(B)</strong> 原模型(2)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1.6</th>
+<th style="text-align:center">9.2</th>
+<th style="text-align:center">16.8</th>
+<th style="text-align:center">27.4</th>
+<th style="text-align:center">38</th>
+<th style="text-align:center">53.2</th>
+<th style="text-align:center">69.8</th>
+<th style="text-align:center">91</th>
+<th style="text-align:center">116.8</th>
+<th style="text-align:center">153.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">帧数</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.462</td>
+</tr>
+</tbody>
+</table>
 <ul>
 <li><strong>坦克</strong>：</li>
 <li><strong>战士</strong>：刘备(2%)</li>
@@ -499,7 +561,55 @@
 <li><strong>射手</strong>：艾琳(旧后羿)(3%)，成吉思汗(3%)，黄忠(3%)，孙尚香(3%)</li>
 <li><strong>辅助</strong>：孙膑(1%)</li>
 </ul>
-<p><strong>模型(C)</strong> 原模型(2)<br>攻速(%)| 0 | 1 | 8.2 | 16.6 | 26.2 | 37.6 | 51.4 | 68.2 | 89.2 | 116 | 152<br>:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:<br>帧数| 17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7<br>攻击间隔(S)| 1.122 | 1.056 | 0.99 | 0.924 | 0.858 | 0.792 | 0.726 | 0.66 | 0.594 | 0.528 | 0.462</p>
+<p><strong>模型(C)</strong> 原模型(2)</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">8.2</th>
+<th style="text-align:center">16.6</th>
+<th style="text-align:center">26.2</th>
+<th style="text-align:center">37.6</th>
+<th style="text-align:center">51.4</th>
+<th style="text-align:center">68.2</th>
+<th style="text-align:center">89.2</th>
+<th style="text-align:center">116</th>
+<th style="text-align:center">152</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">帧数</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.462</td>
+</tr>
+</tbody>
+</table>
 <ul>
 <li><strong>坦克</strong>：苏烈(1%)，孙策(1%)，猪八戒(1%)</li>
 <li><strong>战士</strong>：达摩(3%)，李信-统御形态(1%)，李信-未觉醒(1%)，宫本武藏(1%)</li>
@@ -507,6 +617,70 @@
 <li><strong>法师</strong>：米莱狄(1%)，上官婉儿(1%)，西施(1%)</li>
 <li><strong>射手</strong>：伽罗-关1技能(1%)</li>
 <li><strong>辅助</strong>：鲁班大师(1%)，瑶(1%)</li>
+</ul>
+<h2 id="特型攻速阈值表"><a href="#特型攻速阈值表" class="headerlink" title="特型攻速阈值表"></a>特型攻速阈值表</h2><p>这部分收录的是特殊的英雄/英雄道具/英雄攻击形态的攻速阈值表，由于他们的阈值表与已知的其他所有阈值表均不相同，故称为特型攻速阈值表。<br>说明：</p>
+<ul>
+<li>表中攻速精确到0.2%。</li>
+<li>攻击间隔的单位为秒(S)。</li>
+<li>英雄会按照汉语拼音排序。</li>
+</ul>
+<p><strong>伽罗-开1技能</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">5.2</th>
+<th style="text-align:center">11.4</th>
+<th style="text-align:center">18.4</th>
+<th style="text-align:center">26.2</th>
+<th style="text-align:center">35.2</th>
+<th style="text-align:center">45.6</th>
+<th style="text-align:center">57.8</th>
+<th style="text-align:center">72</th>
+<th style="text-align:center">89.2</th>
+<th style="text-align:center">110.2</th>
+<th style="text-align:center">136.4</th>
+<th style="text-align:center">170</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">帧数</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.32</td>
+<td style="text-align:center">1.254</td>
+<td style="text-align:center">1.188</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>伽罗的攻速成长是1%/Lv。</li>
 </ul>
 
           
@@ -2988,7 +3162,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共32.2k字</span>
+  <span class="post-count">博客全站共32.8k字</span>
 </div>
 
         
