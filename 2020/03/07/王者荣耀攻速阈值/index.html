@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="零蛋大">
 <meta property="og:description" content="本文转载自 https://bbs.nga.cn/read.php?tid=12677614&amp;amp;_ff=516 前言攻速是衡量英雄普攻快慢的属性。由于游戏底层设计的关系(动画帧数必须是整数)，攻速收益并不是线性和均匀的，而是离散分层的。也就是说，在到达下一层之前，英雄所累积的攻速都是无效的。我们把每一层称为攻速档位，跨层的攻速值称为攻速阈(音yu4)值。不同的英雄其攻速档位有所不同，本文对全">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-03-09T10:51:30.672Z">
+<meta property="og:updated_time" content="2020-03-10T05:05:24.973Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="王者荣耀攻速阈值">
 <meta name="twitter:description" content="本文转载自 https://bbs.nga.cn/read.php?tid=12677614&amp;amp;_ff=516 前言攻速是衡量英雄普攻快慢的属性。由于游戏底层设计的关系(动画帧数必须是整数)，攻速收益并不是线性和均匀的，而是离散分层的。也就是说，在到达下一层之前，英雄所累积的攻速都是无效的。我们把每一层称为攻速档位，跨层的攻速值称为攻速阈(音yu4)值。不同的英雄其攻速档位有所不同，本文对全">
@@ -388,7 +388,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-03-09 18:51:30" itemprop="dateModified" datetime="2020-03-09T18:51:30+08:00">2020-03-09</time>
+                <time title="修改时间：2020-03-10 13:05:24" itemprop="dateModified" datetime="2020-03-10T13:05:24+08:00">2020-03-10</time>
               
             
           </span>
@@ -1341,7 +1341,140 @@
 <li>马超的攻速成长是1%/Lv。</li>
 <li>马超的普攻攻击间隔相对较慢，攻速模型特殊。</li>
 </ul>
-<h3 id="梦奇"><a href="#梦奇" class="headerlink" title="梦奇"></a><strong>梦奇</strong></h3><h3 id="蒙犽"><a href="#蒙犽" class="headerlink" title="蒙犽"></a><strong>蒙犽</strong></h3><table>
+<h3 id="梦奇"><a href="#梦奇" class="headerlink" title="梦奇"></a><strong>梦奇</strong></h3><table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">8.2</th>
+<th style="text-align:center">16.6</th>
+<th style="text-align:center">26.2</th>
+<th style="text-align:center">37.6</th>
+<th style="text-align:center">51.4</th>
+<th style="text-align:center">68.2</th>
+<th style="text-align:center">89.2</th>
+<th style="text-align:center">116</th>
+<th style="text-align:center">152</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">普攻帧数</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.462</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">1.6</th>
+<th style="text-align:center">8.2</th>
+<th style="text-align:center">9.2</th>
+<th style="text-align:center">16.6</th>
+<th style="text-align:center">16.8</th>
+<th style="text-align:center">26.2</th>
+<th style="text-align:center">27.4</th>
+<th style="text-align:center">37.6</th>
+<th style="text-align:center">38</th>
+<th style="text-align:center">51.4</th>
+<th style="text-align:center">53.2</th>
+<th style="text-align:center">68.2</th>
+<th style="text-align:center">69.8</th>
+<th style="text-align:center">89.2</th>
+<th style="text-align:center">91</th>
+<th style="text-align:center">116</th>
+<th style="text-align:center">116.8</th>
+<th style="text-align:center">152</th>
+<th style="text-align:center">153.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">特攻帧数</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">1.188</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.462</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>梦奇的攻速成长是1%/Lv。</li>
+<li>梦奇的普攻的动作循环为两下侧向爪击接一下转身爪击，根据技能描述，转身爪击拥有更大的攻击范围(角度更广)。</li>
+<li>普攻指的是梦奇前两下普攻，对应攻击动画为侧向爪击，从模型可知其与模型(A)一致。</li>
+<li>特攻指的是梦奇第三下普攻，对应攻击动画为转身爪击，从模型看其阈值分布是模型(A)和模型(B)的叠加。</li>
+<li>表中红色标记表示该档位的特攻帧数反而增加，但从总输出循环角度来看，总体帧数是下降的。因此阈值与模型(B)一致的档位具有更高的性价比。</li>
+</ul>
+<h3 id="蒙犽"><a href="#蒙犽" class="headerlink" title="蒙犽"></a><strong>蒙犽</strong></h3><table>
 <thead>
 <tr>
 <th style="text-align:center">攻速(%)</th>
@@ -1356,6 +1489,162 @@
 <th style="text-align:center">91</th>
 <th style="text-align:center">116.8</th>
 <th style="text-align:center">153.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">帧数</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">6</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.462</td>
+<td style="text-align:center">0.396</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>蒙犽的攻速成长是0%/Lv。</li>
+<li>蒙犽攻速模型和模型(B)一样，但所有档位均快1帧。</li>
+</ul>
+<h3 id="墨子"><a href="#墨子" class="headerlink" title="墨子"></a><strong>墨子</strong></h3><table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">10.2</th>
+<th style="text-align:center">21.2</th>
+<th style="text-align:center">34.6</th>
+<th style="text-align:center">51.4</th>
+<th style="text-align:center">72.8</th>
+<th style="text-align:center">101.6</th>
+<th style="text-align:center">141.8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">普攻帧数</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">7</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.462</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">7</th>
+<th style="text-align:center">13.6</th>
+<th style="text-align:center">21.2</th>
+<th style="text-align:center">29.8</th>
+<th style="text-align:center">39.8</th>
+<th style="text-align:center">51.4</th>
+<th style="text-align:center">65.2</th>
+<th style="text-align:center">81.6</th>
+<th style="text-align:center">101.6</th>
+<th style="text-align:center">127</th>
+<th style="text-align:center">156.2</th>
+<th style="text-align:center">192.6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">特攻帧数</td>
+<td style="text-align:center">21</td>
+<td style="text-align:center">20</td>
+<td style="text-align:center">19</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">8</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.386</td>
+<td style="text-align:center">1.32</td>
+<td style="text-align:center">1.254</td>
+<td style="text-align:center">1.188</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.528</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>墨子的攻速成长是2%/Lv。</li>
+<li>普攻指的是墨子前三下的普通普攻，从模型可知其与模型(E)一致。</li>
+<li>特攻指的是墨子的炮击。</li>
+</ul>
+<h3 id="夏侯惇"><a href="#夏侯惇" class="headerlink" title="夏侯惇"></a><strong>夏侯惇</strong></h3><table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1.6</th>
+<th style="text-align:center">9.2</th>
+<th style="text-align:center">18.2</th>
+<th style="text-align:center">28.8</th>
+<th style="text-align:center">42.6</th>
+<th style="text-align:center">57.6</th>
+<th style="text-align:center">77.4</th>
+<th style="text-align:center">103.2</th>
+<th style="text-align:center">136.4</th>
+<th style="text-align:center">183.4</th>
 </tr>
 </thead>
 <tbody>
@@ -1389,11 +1678,92 @@
 </tr>
 </tbody>
 </table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">攻速(%)</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">1.6</th>
+<th style="text-align:center">8.2</th>
+<th style="text-align:center">9.2</th>
+<th style="text-align:center">16.6</th>
+<th style="text-align:center">18.2</th>
+<th style="text-align:center">26.2</th>
+<th style="text-align:center">28.8</th>
+<th style="text-align:center">37.6</th>
+<th style="text-align:center">42.6</th>
+<th style="text-align:center">51.4</th>
+<th style="text-align:center">57.6</th>
+<th style="text-align:center">68.2</th>
+<th style="text-align:center">77.4</th>
+<th style="text-align:center">89.2</th>
+<th style="text-align:center">103.2</th>
+<th style="text-align:center">116</th>
+<th style="text-align:center">136.4</th>
+<th style="text-align:center">152</th>
+<th style="text-align:center">183.4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">特攻帧数</td>
+<td style="text-align:center">18</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">17</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">16</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">15</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">14</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">13</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">12</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">11</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">9</td>
+<td style="text-align:center">7</td>
+<td style="text-align:center">8</td>
+</tr>
+<tr>
+<td style="text-align:center">攻击间隔(S)</td>
+<td style="text-align:center">1.188</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">1.122</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">1.056</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.99</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.924</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.858</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.792</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.726</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.66</td>
+<td style="text-align:center">0.528</td>
+<td style="text-align:center">0.594</td>
+<td style="text-align:center">0.462</td>
+<td style="text-align:center">0.528</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li>蒙犽的攻速成长是0%/Lv。</li>
-<li>蒙犽攻速模型和模型(B)一样，但所有档位均快1帧。</li>
+<li>夏侯惇的攻速成长是2%/Lv。</li>
+<li>夏侯惇的普攻的动作循环为两下横向斩击接一下。</li>
+<li>普攻指的是夏侯惇前两下普攻，对应攻击动画为横向斩击。</li>
+<li>特攻指的是夏侯惇第三下普攻，对应攻击动画为挑斩。</li>
+<li>表中红色标记表示该档位的特攻帧数反而增加，但从总输出循环角度来看，总体帧数是下降的。</li>
 </ul>
-<h3 id="墨子"><a href="#墨子" class="headerlink" title="墨子"></a><strong>墨子</strong></h3><h3 id="夏侯惇"><a href="#夏侯惇" class="headerlink" title="夏侯惇"></a><strong>夏侯惇</strong></h3><h3 id="元歌-自动攻击"><a href="#元歌-自动攻击" class="headerlink" title="元歌-自动攻击"></a><strong>元歌-自动攻击</strong></h3><table>
+<h3 id="元歌-自动攻击"><a href="#元歌-自动攻击" class="headerlink" title="元歌-自动攻击"></a><strong>元歌-自动攻击</strong></h3><table>
 <thead>
 <tr>
 <th style="text-align:center">攻速(%)</th>
@@ -1967,7 +2337,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共34.7k字</span>
+  <span class="post-count">博客全站共35.5k字</span>
 </div>
 
         
