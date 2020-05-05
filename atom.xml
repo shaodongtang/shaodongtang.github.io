@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shaodongtang.github.io/"/>
-  <updated>2020-05-05T04:29:15.665Z</updated>
+  <updated>2020-05-05T05:23:47.724Z</updated>
   <id>https://shaodongtang.github.io/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WolframAlpha计算微积分</title>
+    <link href="https://shaodongtang.github.io/2020/05/05/WolframAlphaCalaulus/"/>
+    <id>https://shaodongtang.github.io/2020/05/05/WolframAlphaCalaulus/</id>
+    <published>2020-05-05T05:20:45.947Z</published>
+    <updated>2020-05-05T05:23:47.724Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="计算机" scheme="https://shaodongtang.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="WolframAlpha" scheme="https://shaodongtang.github.io/tags/WolframAlpha/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>至爱智家培训</title>
+    <link href="https://shaodongtang.github.io/2020/05/05/%E8%87%B3%E7%88%B1%E6%99%BA%E5%AE%B6%E5%9F%B9%E8%AE%AD/"/>
+    <id>https://shaodongtang.github.io/2020/05/05/至爱智家培训/</id>
+    <published>2020-05-05T05:19:10.360Z</published>
+    <updated>2020-05-05T05:22:52.335Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="工作" scheme="https://shaodongtang.github.io/categories/%E5%B7%A5%E4%BD%9C/"/>
+    
+    
+      <category term="三维家" scheme="https://shaodongtang.github.io/tags/%E4%B8%89%E7%BB%B4%E5%AE%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>王者荣耀机制解析</title>
@@ -49,7 +101,7 @@
     <link href="https://shaodongtang.github.io/2020/04/12/CAD/"/>
     <id>https://shaodongtang.github.io/2020/04/12/CAD/</id>
     <published>2020-04-12T07:59:44.718Z</published>
-    <updated>2020-04-28T04:34:53.379Z</updated>
+    <updated>2020-05-05T05:24:23.943Z</updated>
     
     <summary type="html">
     
@@ -65,8 +117,6 @@
     
       <category term="计算机" scheme="https://shaodongtang.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    
-      <category term="软件" scheme="https://shaodongtang.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
     
       <category term="CAD" scheme="https://shaodongtang.github.io/tags/CAD/"/>
     
@@ -297,7 +347,7 @@
     <link href="https://shaodongtang.github.io/2019/10/20/MaiKeLaoLin/"/>
     <id>https://shaodongtang.github.io/2019/10/20/MaiKeLaoLin/</id>
     <published>2019-10-20T14:39:44.850Z</published>
-    <updated>2020-05-05T05:15:47.043Z</updated>
+    <updated>2020-05-05T05:24:12.479Z</updated>
     
     <summary type="html">
     
@@ -314,7 +364,7 @@
       <category term="高等数学" scheme="https://shaodongtang.github.io/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
     
-      <category term="高等数学" scheme="https://shaodongtang.github.io/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+      <category term="麦克劳林展开式" scheme="https://shaodongtang.github.io/tags/%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%B1%95%E5%BC%80%E5%BC%8F/"/>
     
   </entry>
   
