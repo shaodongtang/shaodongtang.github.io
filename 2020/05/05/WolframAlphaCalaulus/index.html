@@ -104,7 +104,7 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://shaodongtang.github.io/images/WolframAlphaCalaulus/lim_sqrtn!n.png">
 <meta property="og:image" content="https://shaodongtang.github.io/images/WolframAlphaCalaulus/lim_sqrtn!n_wy.png">
-<meta property="og:updated_time" content="2020-05-05T05:23:47.724Z">
+<meta property="og:updated_time" content="2020-05-05T05:42:25.860Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WolframAlpha计算微积分">
 <meta name="twitter:description" content="第 1 章 一元微分学极限 例1.1：求极限：$\displaystyle\lim_{n\to\infty}\frac{\sqrt[n]{n}}{n}$ 手机 app 示例  输入: lim(n!)^(1/n)/n,n&amp;gt;oo   网页版示例:  输入: lim(n!)^(1/n)/n,n&amp;gt;oo">
@@ -374,7 +374,7 @@
                 
               
 
-              <time title="创建时间：2020-05-05 13:20:45 / 修改时间：13:23:47" itemprop="dateCreated datePublished" datetime="2020-05-05T13:20:45+08:00">2020-05-05</time>
+              <time title="创建时间：2020-05-05 13:20:45 / 修改时间：13:42:25" itemprop="dateCreated datePublished" datetime="2020-05-05T13:20:45+08:00">2020-05-05</time>
             
 
             
@@ -1069,6 +1069,46 @@
   
   
 
+  
+    
+      <script type="text/x-mathjax-config">
+  
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
   
 
 
