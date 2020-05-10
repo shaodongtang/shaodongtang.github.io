@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shaodongtang.github.io/"/>
-  <updated>2020-05-06T03:59:24.750Z</updated>
+  <updated>2020-05-10T04:12:48.726Z</updated>
   <id>https://shaodongtang.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何用CAD画酒柜斜格</title>
+    <link href="https://shaodongtang.github.io/2020/05/10/%E5%A6%82%E4%BD%95%E7%94%A8CAD%E7%94%BB%E9%85%92%E6%9F%9C%E6%96%9C%E6%A0%BC/"/>
+    <id>https://shaodongtang.github.io/2020/05/10/如何用CAD画酒柜斜格/</id>
+    <published>2020-05-10T04:06:36.859Z</published>
+    <updated>2020-05-10T04:12:48.726Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="计算机" scheme="https://shaodongtang.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    
+      <category term="CAD" scheme="https://shaodongtang.github.io/tags/CAD/"/>
+    
+      <category term="酒柜斜格" scheme="https://shaodongtang.github.io/tags/%E9%85%92%E6%9F%9C%E6%96%9C%E6%A0%BC/"/>
+    
+  </entry>
   
   <entry>
     <title>家用酒柜设计</title>
@@ -513,30 +541,6 @@
     
     
       <category term="封神演义" scheme="https://shaodongtang.github.io/tags/%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>电影</title>
-    <link href="https://shaodongtang.github.io/2019/04/26/Movie/"/>
-    <id>https://shaodongtang.github.io/2019/04/26/Movie/</id>
-    <published>2019-04-26T03:38:31.949Z</published>
-    <updated>2019-04-28T13:29:14.620Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          
-        
-      
-    
-    </summary>
-    
-    
-      <category term="电影" scheme="https://shaodongtang.github.io/tags/%E7%94%B5%E5%BD%B1/"/>
     
   </entry>
   
