@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="零蛋大">
 <meta property="og:description" content="摘要：显然利用微分方程法构造辅助函数是一种非常实用的方法，但如果做题够多就会发现有个别题目的辅助函数与利用微分方程法构造出来的有差异，我们应如何处理？本文对此类问题进行了进一步探索。 关键词：微分方程法、罗尔定理、辅助函数、微分中值定理 利用微分方程法构造辅助函数步骤如下：  （1）第一步：将 $\xi$ 全部换为 $x$ （2）第二步：解这个微分方程，并写成 $C=\cdots$ （3）第三步：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2021-05-15T03:40:03.871Z">
+<meta property="og:updated_time" content="2021-05-15T07:07:40.157Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用微分方程法构造辅助函数的进一步探索">
 <meta name="twitter:description" content="摘要：显然利用微分方程法构造辅助函数是一种非常实用的方法，但如果做题够多就会发现有个别题目的辅助函数与利用微分方程法构造出来的有差异，我们应如何处理？本文对此类问题进行了进一步探索。 关键词：微分方程法、罗尔定理、辅助函数、微分中值定理 利用微分方程法构造辅助函数步骤如下：  （1）第一步：将 $\xi$ 全部换为 $x$ （2）第二步：解这个微分方程，并写成 $C=\cdots$ （3）第三步：">
@@ -371,7 +371,7 @@
                 
               
 
-              <time title="创建时间：2021-05-15 11:13:49 / 修改时间：11:40:03" itemprop="dateCreated datePublished" datetime="2021-05-15T11:13:49+08:00">2021-05-15</time>
+              <time title="创建时间：2021-05-15 11:13:49 / 修改时间：15:07:40" itemprop="dateCreated datePublished" datetime="2021-05-15T11:13:49+08:00">2021-05-15</time>
             
 
             
@@ -459,9 +459,9 @@
 <p> <strong>证明</strong>： 将 $\xi$ 全部换为 $x$<br>$$f’(\xi)+f^2(\xi)=0\Rightarrow f’(x)+f^2(x)=0$$<br>解这个微分方程<br>$$-\frac{f’(x)}{f^2(x)}=-1\Rightarrow \frac{1}{f(x)}=-x+C\Rightarrow\text{失败}$$<br>换一种方式<br>$$f’(x)+f^2(x)=0\Rightarrow f(x)=-\frac{f’(x)}{f(x)}\Rightarrow\int f(x)\,\mathrm{d}x=-\ln|f(x)|+C$$<br>注意到 $\int f(x)\,\mathrm{d}x=\int_a^xf(x)\,\mathrm{d}x+C$, 于是有<br>$$\int_a^x f(x)\,\mathrm{d}x=-\ln|f(x)|+C\Rightarrow \ln\Big|f(x)e^{\int_a^x f(x)\,\mathrm{d}x}\Big|=C$$<br>因此, 我们构造<br>$$F(x)=f(x)e^{\int_a^xf(x)\,\mathrm{d}x}$$<br>显然 $F(a)=F(b)=0$, 且 $F(x)$ 在 $[a,b]$ 上连续, 在 $(a,b)$ 内可导, 所以 $\exists\xi\in(a,b)$ 使得 $F’(\xi)=0$, 即<br>$$\big(f’(\xi)+f^2(\xi)\big)e^{\int_a^{\xi}f(x)\,\mathrm{d}x}=0\Rightarrow f’(\xi)+f^2(\xi)=0$$</p>
 <h2 id="本文的结论"><a href="#本文的结论" class="headerlink" title="本文的结论"></a>本文的结论</h2><p>首先，对于微分方程法的标准类题目：常数变易法、积分因子法、降阶法等<br>（1）一阶的类型，通常直接解微分方程即可<br>（2）二阶的类型，可考虑先求出通解，接着对通解求导，最后由这俩式子干掉一个C。<br>其次，对于微分方程法的标准类题目：就目前笔者所见到的题目，对于这种需要修正辅助函数处理的思路如下：<br>（1）观察在解微分方程过程中的常数C来修正，得到需要的辅助函数<br>（2）根据 \int f(x)\,\mathrm{d}x=\int_a^xf(x)\,\mathrm{d}x+C ，转化为 e^{\int_a^x f(x)\,\mathrm{d}x} 得到相关的辅助函数<br>最后，微分方程法虽然为最为实用的方法，但任需要记住此方法并是万能的，当然也不存在万能的方法。具体结合题目具体分析！猜测选出适合的方法</p>
 <h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
-<li>[1] <a href="https://www.zhihu.com/question/452375592" target="_blank" rel="noopener">零蛋大, 予一人, 起说话啊好呢. 这道中值定理的题怎么解？</a></li>
-<li>[2] <a href="https://www.imc-math.org.uk/imc2013/IMC2013-day1-solutions.pdf" target="_blank" rel="noopener">IMC2013-day1-solutions.pdf</a></li>
-<li>[3] <a href="https://www.zhihu.com/question/448021277" target="_blank" rel="noopener">Unduloid, 素履之往,  漁師. 如何求解这个微分方程y’’=f(x,y)?</a></li>
+<li>[1] 零蛋大, 予一人, 起说话啊好呢. 这道中值定理的题怎么解？<a href="https://www.zhihu.com/question/452375592" target="_blank" rel="noopener"></a></li>
+<li>[2] IMC2013-day1-solutions.pdf. <a href="https://www.imc-math.org.uk/imc2013/IMC2013-day1-solutions.pdf" target="_blank" rel="noopener"></a></li>
+<li>[3] Unduloid, 素履之往,  漁師. 如何求解这个微分方程y’’=f(x,y)?<a href="https://www.zhihu.com/question/448021277" target="_blank" rel="noopener"></a></li>
 </ul>
 
       
