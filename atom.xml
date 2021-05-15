@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shaodongtang.github.io/"/>
-  <updated>2020-11-18T14:07:21.671Z</updated>
+  <updated>2021-05-15T03:40:03.871Z</updated>
   <id>https://shaodongtang.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用微分方程法构造辅助函数的进一步探索</title>
+    <link href="https://shaodongtang.github.io/2021/05/15/pde-Roller-jinyibu/"/>
+    <id>https://shaodongtang.github.io/2021/05/15/pde-Roller-jinyibu/</id>
+    <published>2021-05-15T03:13:49.825Z</published>
+    <updated>2021-05-15T03:40:03.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="高等数学" scheme="https://shaodongtang.github.io/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="微分中值定理" scheme="https://shaodongtang.github.io/tags/%E5%BE%AE%E5%88%86%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>封神演义阅读笔记</title>
@@ -309,7 +335,7 @@
     <link href="https://shaodongtang.github.io/2019/04/26/Movie/"/>
     <id>https://shaodongtang.github.io/2019/04/26/Movie/</id>
     <published>2019-04-26T03:38:31.949Z</published>
-    <updated>2019-04-28T13:29:14.620Z</updated>
+    <updated>2021-04-08T00:44:41.404Z</updated>
     
     <summary type="html">
     
