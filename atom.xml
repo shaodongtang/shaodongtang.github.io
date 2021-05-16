@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shaodongtang.github.io/"/>
-  <updated>2021-05-15T07:10:59.488Z</updated>
+  <updated>2021-05-16T14:42:42.953Z</updated>
   <id>https://shaodongtang.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>LaTeX 从入门到入土</title>
+    <link href="https://shaodongtang.github.io/2021/05/16/LaTeX-rumen/"/>
+    <id>https://shaodongtang.github.io/2021/05/16/LaTeX-rumen/</id>
+    <published>2021-05-16T13:39:03.042Z</published>
+    <updated>2021-05-16T14:42:42.953Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+      <category term="LaTeX" scheme="https://shaodongtang.github.io/categories/LaTeX/"/>
+    
+    
+      <category term="LaTeX" scheme="https://shaodongtang.github.io/tags/LaTeX/"/>
+    
+  </entry>
+  
+  <entry>
     <title>利用微分方程法构造辅助函数的进一步探索</title>
     <link href="https://shaodongtang.github.io/2021/05/15/Roller-pde-jinyibu/"/>
     <id>https://shaodongtang.github.io/2021/05/15/Roller-pde-jinyibu/</id>
     <published>2021-05-15T03:13:49.825Z</published>
-    <updated>2021-05-15T07:10:59.488Z</updated>
+    <updated>2021-05-16T00:53:46.355Z</updated>
     
     <summary type="html">
     
