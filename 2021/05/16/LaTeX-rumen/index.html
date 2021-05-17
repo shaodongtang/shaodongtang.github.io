@@ -103,7 +103,7 @@
 <meta property="og:description" content="$\mathrm{\LaTeX}$ 入门$\mathrm{\TeX\,Live}$|下载|安装|卸载|更新宏包$\mathrm{\TeX\,Live}$ 下载 TeX Live 清华镜像站：https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/ MacTeX(MacOSX 系统版) 官网：https://www.tug.o">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://shaodongtang.github.io/images/LaTeX/LaTeX-mlh-document.png">
-<meta property="og:updated_time" content="2021-05-17T02:59:55.647Z">
+<meta property="og:updated_time" content="2021-05-17T03:23:12.631Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="$\mathrm{\LaTeX}$ 从入门到入土">
 <meta name="twitter:description" content="$\mathrm{\LaTeX}$ 入门$\mathrm{\TeX\,Live}$|下载|安装|卸载|更新宏包$\mathrm{\TeX\,Live}$ 下载 TeX Live 清华镜像站：https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/ MacTeX(MacOSX 系统版) 官网：https://www.tug.o">
@@ -390,7 +390,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2021-05-17 10:59:55" itemprop="dateModified" datetime="2021-05-17T10:59:55+08:00">2021-05-17</time>
+                <time title="修改时间：2021-05-17 11:23:12" itemprop="dateModified" datetime="2021-05-17T11:23:12+08:00">2021-05-17</time>
               
             
           </span>
@@ -473,6 +473,7 @@
 <p>LaTeX的基本框架代码如下：<br><figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">\<span class="name">documentclass</span><span class="string">&#123;ctexart&#125;</span></span></span><br><span class="line"><span class="tag">\<span class="name">begin</span><span class="string">&#123;document&#125;</span></span></span><br><span class="line">你好，<span class="tag">\<span class="name">LaTeX</span></span></span><br><span class="line"><span class="tag">\<span class="name">end</span><span class="string">&#123;document&#125;</span></span></span><br></pre></td></tr></table></figure></p>
 <h3 id="入门文档"><a href="#入门文档" class="headerlink" title="入门文档"></a>入门文档</h3><ul>
 <li>一份不太简短的 $\mathrm{\LaTeX2e}$ 介绍： <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/info/lshort/chinese/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/CTAN/info/lshort/chinese/</a></li>
+<li>《$\mathrm{\LaTeX}$ 入门》 刘海洋</li>
 <li>查询宏包说明文档：windows+R 运行输入 <code>texdoc 宏包名</code></li>
 </ul>
 <h3 id="相对靠谱的模板"><a href="#相对靠谱的模板" class="headerlink" title="相对靠谱的模板"></a>相对靠谱的模板</h3><p>Beamer模板</p>
@@ -528,6 +529,12 @@
 <ul>
 <li>未调用minted宏包 <code>xelatex 文件名</code>，例如：xelatex document</li>
 <li>调用minted宏包 <code>xelatex -shell-escape 文件名</code>，例如：xelatex -shell-escape document</li>
+<li>参考文献<ul>
+<li><code>bibtex 文件名</code></li>
+<li><code>biber 文件名</code></li>
+</ul>
+</li>
+<li>索引：<code>makeindex 文件名</code></li>
 </ul>
 <p><img src="/images/LaTeX/LaTeX-mlh-document.png" alt="命令行编译"></p>
 <h3 id="进阶学习资料"><a href="#进阶学习资料" class="headerlink" title="进阶学习资料"></a>进阶学习资料</h3><ul>
